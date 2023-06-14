@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.container{
+background: black;
+width:100% ;
+height: 150px;       
+}
+.comp{
+    color: white;
+    font-weight: 500px;
+    font-family: forte;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.mtn{
+    margin-left: 900px;
+}
+.btn{
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    border: none;               
+    background: white;                
+}
+.btn:hover{
+    background: black;
+    border: solid white;
+    outline: white;
+    color:white;
+    transition: 0.2s all;
+}
+.btn a:hover{
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color: white;
+    margin-top: 400px;
+}
+footer il{
+    text-align: center;
+    display: flex;
+}
+.home{
+    background: black;
+    margin-top: 600px;
+    width:100% ;
+height: 270px;  
+
+}
+.home p {
+text-align: center;
+color: white;
+margin-top: 25px;
+
+} 
+.home p a{
+text-decoration: none;
+color:white;
+
+}
+.word{
+margin-top: 70px;
+}
+.word h1{
+font-size: 40px;
+margin-left: 70px;
+font-weight: bold;
+font-family: Arial;
+letter-spacing: 5px;
+}
+#scroll-container{
+border: 1px dotted  black;
+border-radius: 5px;
+overflow: hidden;
+margin-top: 40px;
+}
+#scroll-text{
+/* animation properties */
+font-size: 30px;
+-moz-transform: translateX(100%); 
+-webkit-transform: translateX(100%);
+transform: translateX(100%);
+
+-moz-animation: my-animation 15s linear infinite;
+-webkit-animation: my-animation 15s linear infinite;
+animation: my-animation 15s linear infinite;
+}
+@-moz-keyframes my-animation {
+from{ -webkit-transform: translateX(100%);}
+to{-webkit-transform: translateX(-100%);}
+}
+@keyframes my-animation{
+from{ -moz-transform: translateX(100%); -webkit-transform: translateX(100%); transform: translateX(100%);}
+to{-moz-transform: translateX(-100%); -webkit-transform: translateX(-100%); transform: translateX(-100%);}
+}

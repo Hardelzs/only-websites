@@ -1,0 +1,142 @@
+<html>
+    <head>
+    <title>sign up</title>
+    <style>
+         @media screen and (max-width: 600px){
+             /* styles for screen smaller than 600 pixels wide */
+         }
+         body{
+            background-color: skyblue;
+         }
+        .main fieldset{
+            width: 400px;
+            height:auto;
+            background: aliceblue;
+            margin-left: 450px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+        .main fieldset input{
+            width:250px;
+            height: 40px;
+         }
+         .main fieldset p{
+             text-align: center;
+             font-size:30px;
+             font-family: forte;
+             color: rgb(0, 0, 77);
+             font-weight: bold;
+         }
+         .main fieldset input{
+             margin-left: 40px;
+             height: 40px;
+             width: 300px;
+             display: flex;
+             margin-bottom: 30px;
+             border-radius: 4px;
+         }
+         .main fieldset header{
+             margin-left:40px;
+             font-weight: bold;
+             font-size:20px;
+         }
+         .btn{
+             font-size:30px;
+             background: skyblue;
+             margin-top:11px;
+             width: 100px;
+             height: 50px;
+             margin-left: center;
+             }
+         .boa{
+             display:flex;
+             flex-direction:row;
+             gap:0px !important;
+             color: blue;
+             font-size: 20px;
+         }
+         .boa input, .boa span {
+             margin-left:-60px !important;
+          }
+         .btt{
+             width: 25px;
+             height: 15px;
+             border-radius: 4px;
+         }
+         .kro{
+             margin-left: 40px;
+             font-size: 22px;
+             margin-top: 20px;
+         }
+         .kro span a{
+             text-decoration: none;
+             color: red;
+             margin-left: 10px;
+         }
+         .btn span a{
+             text-decoration: none;
+         }
+         btn:hover{
+             color: black;
+         }
+          
+    </style>
+    </head>
+    <body>
+        <div class="main">
+        <fieldset>
+        <p> sign Up </p>
+        <header>fullName*</header>
+            <input
+                type="fullname"
+                id="fullname"
+                placeholder="write your name here" required>
+                <header>UserName*</header>
+                <input
+                type="Username"
+                id="username"
+                placeholder="write your username here" required>
+                <header>Email*</header>
+                <input
+                type="Email"
+                id="Email"
+                placeholder="write your Email here" required>
+                <header>Phone*</header>
+                <input
+                type="phone"
+                id="phone"
+                placeholder="write your phone number here" required>
+                <header>Address*</header>
+                <input
+                type="Address"
+                id="Address"
+                placeholder="write your Address here" required>
+                <header>Referral UserName*</header>
+                <input
+                type="Referral Username"
+                id="Referral Username"
+                placeholder="write your Referral Username here" required>
+                <header>Your Date Of Birth*</header>
+                <input 
+                type="date"
+                id="date"
+                placeholder="dd-yy-mm">
+                <input
+                type="Password"
+                id="Password"
+                placeholder="write your Password here" required>
+                <header>Confirm Password*</header>
+                <input
+                type="Password"
+                id="confirm Password"
+                placeholder="write your Confirm Password here" required>
+                <div class="boa">
+                <input type="checkbox" class="btt"><span>I agree to the terms and conditions</span><br>
+                </div>
+               <button class="btn"><span><a href="practice.html">signup</a></span></button>
+               <div class="kro">
+                </div>
+        </fieldset>
+    </body>
+</html>
